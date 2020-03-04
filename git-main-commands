@@ -22,10 +22,11 @@ git commit -m 'mensagem de commit': salvar alterações no formato de commit (ge
 git push: forma de poder publicar as alterações em um repositório remoto (upload);
 git pull: vai atualizar o repositório local de acordo com o repositório remoto (download);
 git merge: juntar alterações entre branchies;
-git status: 
-git log:
-git branch <<nome da branch>>:,,,
+git status: retorna informações referentes ao estado atual do projeto;
+git log: retorna histórico de alterações com informações dos commits
+git branch <<nome da branch>>: é um ramo criado para identificar os commits.
+Não é boa prática utilizar a branch master para criar novas features ou fazer alterações nos códigos existentes. É interessante criar uma branch para realizar as alterações e só depois fazer o merge na branch main.
 
 
 repositório local: na máquina local;
-repositório remoto: no servidor remoto;
+repositório remoto: no servidor remoto; para compartilhar code base com outros membros da equipe
