@@ -1,0 +1,32 @@
+LISTA DE COMANDOS BÁSICOS
+
+--------------------------------
+AJUDA
+
+=== Geral ===
+git help: ajuda do git -> lista as opções para utilização do git
+
+=== Comando específico ===
+git help add
+git help commit
+git help <<qualquer_comando_git>>
+--------------------------------
+
+
+
+
+git init: inicializar um repositório;
+git clone: para obter a estrutura de projeto de um repositorio remoto, ou seja, clonar um projeto do github, por exemplo;
+git add .(todos os arquivos) ou git add <<nome_arquivo>>(arquivo específico): para adicionar arquivos a serem restreados pelo git;
+git commit -m 'mensagem de commit': salvar alterações no formato de commit (gera um id identificador) e tornar as informações rastreáveis; O parâmetro '-m' é para descrever uma mensagem de commit para identificar o commit futuramente;
+git push: forma de poder publicar as alterações em um repositório remoto (upload);
+git pull: vai atualizar o repositório local de acordo com o repositório remoto (download);
+git merge: juntar alterações entre branchies;
+git status: retorna informações referentes ao estado atual do projeto;
+git log: retorna histórico de alterações com informações dos commits
+git branch <<nome da branch>>: é um ramo criado para identificar os commits.
+Não é boa prática utilizar a branch master para criar novas features ou fazer alterações nos códigos existentes. É interessante criar uma branch para realizar as alterações e só depois fazer o merge na branch main.
+
+
+repositório local: na máquina local;
+repositório remoto: no servidor remoto; para compartilhar code base com outros membros da equipe
